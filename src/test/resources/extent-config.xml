@@ -1,0 +1,51 @@
+<extentreports>
+    <configuration>
+        <!-- Report Name and Title -->
+        <reportName>Automation Test Report</reportName>
+        <documentTitle>Extent Reports - Cucumber BDD</documentTitle>
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+
+        <!-- Theme Options: STANDARD / DARK -->
+        <theme>DARK</theme>
+
+        <!-- Chart Options -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- System Info -->
+        <systemInfo>
+            <info>
+                <key>Project</key>
+                <value>PHP Travels Automation</value>
+            </info>
+            <info>
+                <key>Tester</key>
+                <value>Nagaraju</value>
+            </info>
+            <info>
+                <key>Environment</key>
+                <value>QA</value>
+            </info>
+            <info>
+                <key>OS</key>
+                <value>Windows 11</value>
+            </info>
+        </systemInfo>
+
+        <!-- Optional Custom CSS -->
+        <css>
+            <![CDATA[
+                .report-name { color: #00E5FF; font-size: 20px; }
+                .category-status { font-weight: bold; }
+            ]]>
+        </css>
+
+        <!-- Optional Custom JS -->
+        <js>
+            <![CDATA[
+                console.log("Extent Report Loaded Successfully!");
+            ]]>
+        </js>
+    </configuration>
+</extentreports>
