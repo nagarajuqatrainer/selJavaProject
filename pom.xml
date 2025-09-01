@@ -16,6 +16,14 @@
 
  
     <dependencies>
+    
+    <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.32</version> <!-- latest stable as of 2025 -->
+    <scope>provided</scope>
+</dependency>
+    
      <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-simple</artifactId>
